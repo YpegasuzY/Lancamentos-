@@ -40,7 +40,7 @@ header li a:hover{
 
 .celular{
     background-image: url(img/Lançamento.jpg);
-    padding: 18.6rem;
+    padding: 15rem;
     background-position: center;
     background-repeat: no-repeat;
     margin-top: -9.1rem;
@@ -69,4 +69,35 @@ header li a:hover{
     color: black;
     transition: 0.8s;
     border-color: black;
+}
+
+.texto{
+    padding: 10rem;
+    display: flex;
+    text-align: center;
+    background-color: black;
+    
+}
+
+.texto p{
+    margin: 0 20px;
+    color: white;
+}
+
+footer{
+    padding: 3em;
+    color: white;
+    background-color: gray;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+footer a{
+    text-decoration: none;
+    color: white;
+}
+
+footer a:hover{
+    color: #e5383bc7;
+    transition: 0.9s;
 }
