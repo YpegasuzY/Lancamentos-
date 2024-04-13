@@ -1,0 +1,72 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header{
+    background-color: #161a1d00;
+    text-align: center;
+    padding: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+header a i{
+    font-size: 35px;
+    color: black;
+}
+
+header a i:hover{
+    color: #e5383bc7;
+    transition: 0.9s;
+}
+header li{
+    display: inline;
+    margin-left: 1em;
+    font-size: 20px;
+}
+
+header li a{
+    text-decoration: none;
+    color: black;
+}
+
+header li a:hover{
+    color: #e5383bc7;
+    transition: 0.9s;
+}
+
+.celular{
+    background-image: url(img/Lançamento.jpg);
+    padding: 18.6rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: -9.1rem;
+}
+
+.celular h1{
+    font-size: 40px;
+}
+
+.celular p{
+    margin-top: 40px;
+}
+
+.celular button{
+    margin-top: 30px;
+    padding: 10px;
+    width: 15rem;
+    background-color: #E5383B;
+    color: white;
+    border-color: white;
+    cursor: pointer;
+}
+
+.celular button:hover{
+    background-color: #B1A7A6;
+    color: black;
+    transition: 0.8s;
+    border-color: black;
+}
