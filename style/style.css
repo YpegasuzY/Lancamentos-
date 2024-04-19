@@ -1,10 +1,10 @@
-*{
+* {
     padding: 0;
     margin: 0;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-header{
+header {
     background-color: #161a1d00;
     text-align: center;
     padding: 2rem;
@@ -13,32 +13,34 @@ header{
     align-items: center;
     list-style: none;
 }
-header a i{
+
+header a i {
     font-size: 35px;
     color: black;
 }
 
-header a i:hover{
+header a i:hover {
     color: #e5383bc7;
     transition: 0.9s;
 }
-header li{
+
+header li {
     display: inline;
     margin-left: 1em;
     font-size: 20px;
 }
 
-header li a{
+header li a {
     text-decoration: none;
     color: black;
 }
 
-header li a:hover{
+header li a:hover {
     color: #e5383bc7;
     transition: 0.9s;
 }
 
-.celular{
+.celular {
     background-image: url(img/Lançamento.jpg);
     padding: 15rem;
     background-position: center;
@@ -46,15 +48,15 @@ header li a:hover{
     margin-top: -9.1rem;
 }
 
-.celular h1{
+.celular h1 {
     font-size: 40px;
 }
 
-.celular p{
+.celular p {
     margin-top: 40px;
 }
 
-.celular button{
+.celular button {
     margin-top: 30px;
     padding: 10px;
     width: 15rem;
@@ -64,20 +66,20 @@ header li a:hover{
     cursor: pointer;
 }
 
-.celular button:hover{
+.celular button:hover {
     background-color: #B1A7A6;
     color: black;
     transition: 0.8s;
     border-color: black;
 }
 
-.texto{
+.texto {
     padding: 5rem;
     display: flex;
     text-align: center;
     background-color: black;
     justify-content: center;
-    
+
 }
 
 .texto p {
@@ -100,16 +102,14 @@ header li a:hover{
 }
 
 
-
-
-.cores{
+.cores {
     padding: 15rem;
     background-image: url(img/Banner\ 3.jpg);
     background-position: center;
     background-size: cover;
 }
 
-footer{
+footer {
     padding: 3em;
     color: white;
     background-color: gray;
@@ -117,12 +117,23 @@ footer{
     justify-content: space-evenly;
 }
 
-footer a{
+footer a {
     text-decoration: none;
     color: white;
 }
 
-footer a:hover{
+footer a:hover {
     color: #e5383bc7;
     transition: 0.9s;
 }
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:1045px)
