@@ -78,38 +78,8 @@ header li a:hover {
 
 .sessao3 p{
    margin: 0 30px;
+   font-weight: 700
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 footer {
     padding: 3em;
@@ -117,6 +87,10 @@ footer {
     background-color: gray;
     display: flex;
     justify-content: space-evenly;
+}
+
+footer p{
+    cursor: context-menu;
 }
 
 footer a {
