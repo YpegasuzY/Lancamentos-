@@ -67,9 +67,18 @@ header li a:hover {
 }
 
 .sessao3{
-    background: linear-gradient();
+    background: linear-gradient(180deg, rgba(169, 174, 178, 0.644) 0%, rgba(67, 75, 76, 0.699) 100%), url(img/sessao\ 4.jpg);
+    padding: 30vh;
+    display: flex;
+    background-size: cover;
+    background-position: inherit;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
+.sessao3 p{
+   margin: 0 30px;
+}
 
 
 
